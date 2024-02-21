@@ -64,3 +64,14 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### Embeded images
+
+#### Logs
+![Logs](
+    logs.png
+)
+#### Etherscan
+![Etherscan](
+    etherscan.png
+)
