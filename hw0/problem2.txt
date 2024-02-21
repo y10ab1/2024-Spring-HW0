@@ -4,14 +4,14 @@ EIP-1559, which stands for Ethereum Improvement Proposal 1559, is a significant 
 
 Smart Contract Basics - Solidity Storage Layout:
 
-var1 - slot 0
-var2 - slot 1
+var1 - X
+var2 - slot 0
 var3 - X
-var4 - slot 2
-var5 - slot 3
-var6 - slot 4
-var7 - slot 5
-var8 - slot 6
+var4 - slot 1
+var5 - slot 1
+var6 - slot 1
+var7 - slot 2
+var8 - slot 3
 
 
 DeFi Basics - Impermanent Loss in AMM:
