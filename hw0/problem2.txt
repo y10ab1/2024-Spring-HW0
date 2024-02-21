@@ -1,0 +1,22 @@
+Blockchain Basics - Gas Mechanism & EIP-1559:
+Gas in the context of blockchain, particularly Ethereum, refers to the computational effort required to execute operations. Every transaction requires computational resources to execute, and gas quantifies exactly how much work is involved. Users pay for this computation in terms of gas, and gas is paid in the blockchain's native cryptocurrency (e.g., Ether for Ethereum).
+EIP-1559, which stands for Ethereum Improvement Proposal 1559, is a significant update to Ethereum's fee market. Before EIP-1559, gas prices were determined by a first-price auction system, which often led to unpredictable gas prices and overpayments. EIP-1559 introduced a base fee for transactions that adjusts dynamically, helping to stabilize the fee market. It also implemented a burn mechanism for the base fee, which reduces the overall supply of Ether, potentially adding deflationary pressure on the cryptocurrency. This proposal aims to make transaction fees more predictable and the network more efficient.
+
+Smart Contract Basics - Solidity Storage Layout:
+
+var1 - slot 0
+var2 - slot 1
+var3 - X
+var4 - slot 2
+var5 - slot 3
+var6 - slot 4
+var7 - slot 5
+var8 - slot 6
+
+
+DeFi Basics - Impermanent Loss in AMM:
+Decentralized Finance (DeFi) platforms often use Automated Market Makers (AMMs) for asset trading instead of traditional order books. An AMM relies on liquidity pools—pots of funds locked in a smart contract—to facilitate trades. Users, known as liquidity providers (LPs), supply the pools with an equivalent value of two tokens, which traders can then trade against.
+Impermanent loss occurs when the price of the tokens in the liquidity pool changes compared to when they were deposited. The loss is 'impermanent' because if the prices return to their original state when the LP deposited their tokens, the loss is recovered. However, if LPs withdraw their funds from the pool while the prices are different, the loss becomes permanent.
+
+Example:
+Suppose an LP deposits an equivalent value of ETH and DAI into a liquidity pool (e.g., $50 worth of each at the time of deposit). If the price of ETH rises, arbitrage traders will add DAI and remove ETH from the pool until the price ratio in the pool matches the market price. If the LP withdraws their funds at this point, they will receive more DAI and less ETH than they initially deposited. If ETH's price remains high, they would have been better off just holding onto their ETH rather than providing liquidity.
